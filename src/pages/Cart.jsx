@@ -1,9 +1,6 @@
-import axios from 'axios'
+
 import React, { useEffect } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
-import CartProduct from '../store/components/Cart/CartProduct'
-import { getUserCart } from '../store/slices/cart.slice'
-import getConfig from '../utils/getConfig'
+
 import "./styles/cart.css"
 
 const contacto = () => {
