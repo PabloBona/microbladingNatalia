@@ -26,7 +26,7 @@ function App() {
         <div class="footer-container">
           <div class="footer-links">
             <ul className='footer__ul'>
-              <li className='footer__title'> About</li>
+              <li className='footer__title'> About Us</li>
               <li className='liLocation'><i class='bx bx-current-location'></i>Vistalba - Mendoza, Argentina</li>
               <li className='liLocation'><i class='bx bxs-phone-call'></i>261-5978474</li>
             </ul>
