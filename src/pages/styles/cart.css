@@ -1,10 +1,9 @@
 .cart {
-  background-image: url(./back2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 20px;
   padding-top: 150px;
-  text-align: right;
+  text-align: center;
   padding-right: 30px;
   padding-bottom: 120px;
   line-height: 30px;
@@ -12,16 +11,11 @@
 }
 .media {
   display: flex;
-  justify-content: end;
+  justify-content: center;
   gap: 20px;
 }
 @media (max-width: 835px) {
   .cart {
     font-size: 15px;
-    padding-top: 150px;
-    display: flex;
-    padding-bottom: 200px;
-    text-align: center;
-    padding-right: 5%;
   }
 }

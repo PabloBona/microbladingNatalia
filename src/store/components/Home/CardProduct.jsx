@@ -8,6 +8,9 @@ const CardProduct = () => {
 
     return (
         <div className='description'>
+
+            <img src="./forma-de-rostro-mujer-microblading.jpg" alt="" />
+
             <h1 className='description__title'> Microblading de cejas ¿Qué cejas te quedan mejor según tu forma de la cara? </h1>
             <section className='description__container'>
                 <article className='description__article'>

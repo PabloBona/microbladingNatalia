@@ -1,7 +1,7 @@
 .header {
   position: fixed;
   width: 100%;
-  z-index: 1000;
+  z-index: 2;
   background-color: #f1f1f1;
   display: flex;
   justify-content: space-evenly;
@@ -19,6 +19,7 @@
 
 .logo {
   height: 70px;
+  width: fit-content;
 }
 
 .header__link {
@@ -26,6 +27,7 @@
   padding-left: 70px;
   padding-right: 70px;
   color: #274771;
+  text-align: center;
 }
 .header__list h3 {
   position: relative;

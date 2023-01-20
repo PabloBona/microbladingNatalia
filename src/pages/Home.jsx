@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
 import CardProduct from '../store/components/Home/CardProduct'
-import FilterCategory from '../store/components/Home/FilterCategory'
-import FilterPrice from '../store/components/Home/FilterPrice'
-import { ShowFilterPrice } from '../store/slices/ShowFilterPrice'
+
 import "./styles/home.css"
 
 const Home = () => {
@@ -32,12 +30,7 @@ const Home = () => {
     const filterCallBack = prod => +prod.price >= inputPrice.from && +prod.price <= inputPrice.to
     return (
         <div className='home '>
-            <section className='micro__ImgContainer'>
-                <div className='micro__Img'>
-                    <img className='Img' src="./forma-de-rostro-mujer-microblading.jpg" alt="" />
 
-                </div>
-            </section>
             <div className='products-container'>
                 <CardProduct />
 
