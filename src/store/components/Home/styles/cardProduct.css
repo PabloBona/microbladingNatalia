@@ -1,0 +1,42 @@
+.description__title {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #274771;
+}
+
+.description__micro {
+  padding: 10px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+  max-width: 1000px;
+}
+.description__micro p {
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  color: #274771;
+}
+
+.description__li span {
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+}
+.description__ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 900px;
+  padding: 10px;
+  border: #efa3c8 1px solid;
+  margin-top: 20px;
+}
+@media (max-width: 510px) {
+  .description__title {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+}

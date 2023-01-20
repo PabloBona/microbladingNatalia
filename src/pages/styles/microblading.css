@@ -1,0 +1,141 @@
+.microblading {
+  padding-top: 150px;
+  background-image: url(./back.jpg);
+  background-repeat: no-repeat;
+}
+
+.microblading__container {
+  text-align: left;
+  padding: 30px;
+}
+
+.microblading__title {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: 20px;
+  text-align: center;
+  background-image: -moz-linear-gradient(top, #ffc0cb, #ee82ee);
+  color: #274771;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #ffc0cb),
+    color-stop(1, #ee82ee)
+  );
+}
+.microblading__h3 {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 22px;
+}
+.microblading__h3 img {
+  width: 10%;
+  display: flex;
+}
+
+.microblading__span {
+  padding: 10px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+  padding-left: 20px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.micro__apply span {
+  background-color: #0081b4;
+
+  max-width: 200px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  writing-mode: vertical-lr;
+  text-orientation: sideways;
+  padding: 30px;
+  color: #274771;
+  background-image: -moz-linear-gradient(top, #fad3d7, #efa3c8);
+
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #fad3d7),
+    color-stop(1, #efa3c8)
+  );
+}
+.micro__apply {
+  display: flex;
+  padding-top: 40px;
+  justify-content: center;
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+
+ul img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.microblading__container img {
+  width: 80%;
+  padding-left: 10%;
+}
+.cares {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+hr {
+  content: "";
+  width: 50%;
+  border: #efa3c8 1px solid;
+  height: 0px;
+}
+.ul__cares {
+  display: flex;
+  flex-direction: column;
+}
+.cares h4 {
+  color: #274771;
+  font-weight: 600;
+  font-size: 20px;
+}
+@media (max-width: 510px) {
+  .micro__apply span {
+    max-width: 130px;
+    font-size: 16px;
+
+    color: #274771;
+  }
+  .micro__ul {
+    font-size: 13px;
+  }
+  ul img {
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  .microblading__title {
+    margin: 10px;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .microblading__container img {
+    width: 100%;
+    padding-left: 0%;
+  }
+  .microblading__h3,
+  .cares h4 {
+    font-size: 16px;
+  }
+  .microblading__span,
+  .cares {
+    font-size: 15px;
+  }
+}
